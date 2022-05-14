@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;       
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
