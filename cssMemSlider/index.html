@@ -8,25 +8,45 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <div class="wrapper">
-      <div class="slider">
+    <div class="wrapper">
+        <input type="radio" name="point" id="slide1" class="radioBtn" checked>
+        <input type="radio" name="point" id="slide2" class="radioBtn">
+        <input type="radio" name="point" id="slide3" class="radioBtn">
+        <input type="radio" name="point" id="slide4" class="radioBtn">
 
-      </div>
+        <div class="slider">
+            <div class="slides slide1">
+                <img src="./image/image-1-mouse.jpg" alt="image" class="image">
+            </div>
+            <div class="slides slide2">
+                <img src="./image/image-2-insect.jpg" alt="image" class="image">
+            </div>
+            <div class="slides slide3">
+                <img src="./image/image-3-flirt.jpg" alt="image" class="image">
+            </div>
+            <div class="slides slide4">
+                <img src="./image/image-4-doctor.jpg" alt="image" class="image">
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="description">
+                <p class="desc">Memo-1</p>
+                <p class="desc">Memo-2</p>
+                <p class="desc">Memo-3</p>
+                <p class="desc">Memo-4</p>
+            </div>
 
-      <div class="field">
-         <div class="description">
-            Memo-1
-         </div>
 
-         <div class="navigation">
-            <label for="1" class="dot"></label>
-            <label for="2" class="dot"></label>
-            <label for="3" class="dot"></label>
-            <label for="4" class="dot"></label>
-         </div>
-      </div>
+            <div class="controls">
+                <label for="slide1" class="label"></label>
+                <label for="slide2" class="label"></label>
+                <label for="slide3" class="label"></label>
+                <label for="slide4" class="label"></label>
+            </div>
 
-   </div>
+        </div>
+    </div>
     
 </body>
 </html>
