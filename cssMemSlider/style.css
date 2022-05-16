@@ -53,6 +53,8 @@ body {
 }
 
 .content{
+   height: 11vh;
+   padding: 0 2rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -79,8 +81,10 @@ body {
 
 
 .desc{
-   font-size: 1.5rem;
-   display: none
+   font-size: 0;
+   transition: all .5s ease;
+   /* display: none; */
+
 
 }
 
@@ -89,7 +93,8 @@ body {
 #slide3:checked ~ .content .description p:nth-of-type(3),
 #slide4:checked ~ .content .description p:nth-of-type(4) {
 
-  display: block;
+  /* display: block; */
+  font-size: 1.5rem;
 }
 
 #slide1:checked ~ .slider .slide-container {
