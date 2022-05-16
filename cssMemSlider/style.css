@@ -149,6 +149,10 @@ body {
       margin-right: auto;
    }
 
+   .label:hover .controls_span{
+      border-color: blueviolet
+   }
+
 }
 
 
