@@ -27,6 +27,25 @@ body {
    overflow: hidden;
 }
 
+
+.slide-container{
+   display: flex;
+   width: 400%;
+   transition: all .5s ease;
+
+}
+
+.slides{
+   width: 100%;
+}
+
+
+
+
+
+
+
+
 .image{
    display: block;
    width: 100%;
@@ -72,3 +91,21 @@ body {
 
   display: block;
 }
+
+#slide1:checked ~ .slider .slide-container {
+   margin-left: 0;
+}
+
+#slide2:checked ~ .slider .slide-container {
+   margin-left: -100%;
+}
+
+#slide3:checked ~ .slider .slide-container {
+   margin-left: -200%;
+}
+
+#slide4:checked ~ .slider .slide-container {
+   margin-left: -300%;
+}
+
+
