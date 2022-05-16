@@ -114,3 +114,26 @@ body {
 }
 
 
+@media screen and (max-width: 769px) {
+   .slider {
+      height: 80vh;
+   }
+
+   .image{
+      height: 80vh;
+   }
+
+
+   .content{
+      padding-top: 1rem;
+      flex-direction: column-reverse;
+
+   }
+
+   .description{
+      margin-right: auto;
+   }
+
+}
+
+
